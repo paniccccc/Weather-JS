@@ -51,4 +51,4 @@ document.querySelector(".search-bar").addEventListener("keyup", function (event)
     }
   });
 
-weather.fetchWeather("Bhubaneswar");
+weather.fetchWeather(this.name);
